@@ -1,0 +1,127 @@
+* {
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-container {
+  background-color: #150b3e;
+  border-radius: 18px;
+  padding: 30px;
+  width: 75%;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  min-width: 100px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+.logo-name {
+  align-self: center;
+  color: #7c3aed;
+  font-size: 28px;
+}
+
+.profile-name {
+  align-self: center;
+  color: #d4d2db;
+  font-size: 28px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance-stats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.your-bal {
+  font-size: 28px;
+  color: #585076;
+}
+
+.balance-amt {
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.balance-amt-in {
+  font-size: 22px;
+  color: #585076;
+}
+.widthdraw-head {
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.widthdraw-sum {
+  font-size: 22px;
+  color: #585076;
+}
+
+ul {
+  width: 90%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+@media screen and (max-width:575px){
+  .card-container{
+    width:95%
+  }
+  .profile-logo {
+    max-height: 60px;
+    min-width: 60px;
+  }
+  .logo-name{
+    font-size: 18px;
+  }
+  .profile-name {
+  font-size: 16px;
+  }
+
+  .your-bal {
+    font-size: 18px;
+  }
+
+  .balance-amt {
+    font-size: 24px;
+  }
+
+  .balance-amt-in {
+    font-size: 16px;
+  }
+  .widthdraw-head {
+    font-size: 18px;
+  }
+  .widthdraw-sum {
+    font-size: 16px;
+  }
+}
